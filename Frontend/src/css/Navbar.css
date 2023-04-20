@@ -1,0 +1,80 @@
+.nav-mainContainer{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5px 40px;
+    height: 80px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 40px;
+}
+
+.nav-logoContainer{
+
+}
+
+.nav-logoImg{
+    height:50px;
+    border-radius: 25px;
+}
+
+.nav-navbar{
+    margin-left: 15px;
+    flex:1;
+    display: flex;
+    /* display: none; */
+    justify-content: start;
+    align-items: center;
+}
+
+.nav-navbar .nav-navItem{
+    padding: 10px 40px;
+    transition: all 0.3s ease-in-out;
+    font-size: 18px;
+    text-transform: capitalize;
+}
+
+.nav-navbar .nav-navItem:hover{
+    border-bottom: 3px solid rgb(164, 0, 156);
+    font-size: 25px;
+    font-weight: 800;
+    cursor: pointer;
+}
+
+.nav-buttonContainer{
+    width: 20%;
+}
+
+.nav-buttonContainer{
+    display:flex;
+    justify-content: center;
+}
+.nav-buttonContainer .nav-signinButton{
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    /* display: none; */
+}
+.nav-buttonContainer .nav-signupButton{
+    margin-left: 15px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+    /* display: none; */
+}
+
+.nav-buttonContainer .nav-logoutButton{
+    margin-left: 90px;
+    padding: 10px 30px;
+    font-size: 15px;
+    border-radius: 10px;
+    border: none;
+    outline:none;
+}
+
+.nav-disableContent{
+    display:none;
+}

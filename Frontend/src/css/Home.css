@@ -1,0 +1,4 @@
+.homeContainer{
+    background:-webkit-linear-gradient(90deg, rgba(133, 6, 87, 0.06) 40%, rgba(153, 29, 139, 0.9) 81%);
+    background:linear-gradient(90deg, rgba(133, 6, 87, 0.06) 40%, rgba(153, 29, 139, 0.9) 81%);
+}
